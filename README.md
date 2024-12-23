@@ -19,3 +19,7 @@ Automating LLM Agents to Chat with Multiple/Large Databases (Combining RAG and S
 - **LangChain Credentials:** Required for LangSmith (Free from your LangChain profile).
 - **Dependencies:** The necessary libraries are provided in `requirements.txt` file.
 ---
+
+#### TODO
+
+Added description of creating a vector database and added link to travel.sqlite download source.
