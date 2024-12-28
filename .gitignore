@@ -196,3 +196,4 @@ my_env.tfvars
 data/airline_policy_vectordb/
 data/stories_vectordb/
 data/travel.sqlite
+data/database.sqlite
