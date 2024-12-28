@@ -25,3 +25,7 @@ Automating LLM Agents to Chat with Multiple/Large Databases (Combining RAG and S
 Added description of creating a vector database and added link to travel.sqlite download source.
 Note: I used a chinook.db because there was an error with travel.sqlite database.
 Additionally for testing I downloaded another sqlite database and there is no problem with functioning: https://www.kaggle.com/code/dimarudov/data-analysis-using-sql/notebook
+
+#### Notes
+
+I am using local LLM qwen2.5:14b. Its performance is really good but it has problems with SQL agent (problem with creating SQL queries).
