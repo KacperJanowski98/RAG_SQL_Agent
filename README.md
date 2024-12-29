@@ -29,3 +29,5 @@ Additionally for testing I downloaded another sqlite database and there is no pr
 #### Notes
 
 I am using local LLM qwen2.5:14b. Its performance is really good but it has problems with SQL agent (problem with creating SQL queries).
+
+Information about the database used: https://www.sqlitetutorial.net/sqlite-sample-database/
