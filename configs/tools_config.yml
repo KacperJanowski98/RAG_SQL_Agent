@@ -7,7 +7,7 @@ swiss_airline_policy_rag:
   unstructured_docs: "data/unstructured_docs/swiss_airline_policy"
   vectordb: "data/airline_policy_vectordb"
   collection_name: rag-chroma
-  llm: llama3-groq-tool-use:latest
+  llm: qwen2.5:14b
   llm_temperature: 0.0
   embedding_model: nomic-embed-text
   chunk_size: 500
@@ -18,7 +18,7 @@ stories_rag:
   unstructured_docs: "data/unstructured_docs/stories"
   vectordb: "data/stories_vectordb"
   collection_name: stories-rag-chroma
-  llm: llama3-groq-tool-use:latest
+  llm: qwen2.5:14b
   llm_temperature: 0.0
   embedding_model: nomic-embed-text
   chunk_size: 500
@@ -27,12 +27,12 @@ stories_rag:
 
 travel_sqlagent_configs:
   travel_sqldb_dir: "data/travel.sqlite"
-  llm: llama3-groq-tool-use:latest
+  llm: qwen2.5:14b
   llm_temperature: 0.0
   
 chinook_sqlagent_configs:
   chinook_sqldb_dir: "data/Chinook.db"
-  llm: llama3-groq-tool-use:latest
+  llm: qwen2.5:14b
   llm_temperature: 0.0
 
 langsmith:
