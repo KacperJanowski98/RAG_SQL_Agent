@@ -1,6 +1,6 @@
 
 primary_agent:
-  llm: llama3-groq-tool-use:latest
+  llm: qwen2.5:14b
   llm_temperature: 0.0
 
 swiss_airline_policy_rag:
