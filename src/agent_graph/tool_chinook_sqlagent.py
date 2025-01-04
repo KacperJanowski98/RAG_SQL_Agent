@@ -14,7 +14,7 @@ from agent_graph.load_tools_config import LoadToolsConfig
 TOOLS_CFG = LoadToolsConfig()
 
 
-class State(TypedDict):
+class QueryState(TypedDict):
     question: str
     query: str
     result: str
@@ -80,7 +80,7 @@ class ChinookSQLAgent:
             | answer
         )
 
-    def __write_query(self, state: State):
+    def __write_query(self, state: QueryState):
         query_prompt_template = hub.pull("langchain-ai/sql-query-system-prompt")
         prompt = query_prompt_template.invoke({
             "dialect": self.db.dialect,
